@@ -1,0 +1,92 @@
+{
+  "call_summary": {
+    "purpose": "To schedule a meeting to discuss compliance with Georgia Senate Bill 68.",
+    "outcome": "Meeting Scheduled",
+    "product_service_offered": "NLA Investigative Division's compliance solution"
+  },
+  "entities": [
+    {
+      "name": "Arison",
+      "type": "PERSON",
+      "subtype": "Agent",
+      "contact_details": null
+    },
+    {
+      "name": "Unnamed Gatekeeper",
+      "type": "PERSON",
+      "subtype": "Gatekeeper",
+      "contact_details": null
+    },
+    {
+      "name": "Dale Spear",
+      "type": "PERSON",
+      "subtype": "Decision Maker",
+      "contact_details": {
+        "email": "speartg@gmail.com",
+        "phone": "404-819-5095"
+      }
+    }
+  ],
+  "relationships": [
+    { "source": "Arison", "target": "NLA Investigative Division", "type": "WORKS_FOR" },
+    { "source": "Unnamed Gatekeeper", "target": "Dale Spear", "type": "TRANSFERRED_CALL_TO" },
+    { "source": "Arison", "target": "Dale Spear", "type": "SCHEDULED_MEETING_WITH" }
+  ],
+  "events": [
+    {
+      "type": "GATEKEEPER_INTERACTION",
+      "speaker_role": "Gatekeeper",
+      "speaker_name": "Unnamed Gatekeeper",
+      "text": "Is not available.",
+      "agent_response": "Thank you for letting me know. Could you please connect me with someone who can assist with compliance regarding Georgia Senate bill 8?",
+      "flag_for_review": false
+    },
+    {
+      "type": "BUYING_SIGNAL",
+      "speaker_role": "Customer",
+      "speaker_name": "Dale Spear",
+      "text": "Yes. I'd definitely sounds relevant to my organization.",
+      "agent_response": "I'm glad to hear that, Dale.",
+      "flag_for_review": false
+    },
+    {
+      "type": "QUESTION",
+      "speaker_role": "Customer",
+      "speaker_name": "Dale Spear",
+      "text": "It's okay.",
+      "agent_response": "Thank you for your understanding.",
+      "flag_for_review": false
+    },
+    {
+      "type": "GENERAL_EVENT",
+      "speaker_role": "Agent",
+      "speaker_name": "Arison",
+      "text": "Great. Thursday at 9 AM works great.",
+      "agent_response": "Perfect. I have that noted.",
+      "flag_for_review": false
+    },
+    {
+      "type": "GENERAL_EVENT",
+      "speaker_role": "Customer",
+      "speaker_name": "Dale Spear",
+      "text": "Yes. It is.",
+      "agent_response": "Excellent. So I have you down for Thursday at 9 AM.",
+      "flag_for_review": false
+    },
+    {
+      "type": "GENERAL_EVENT",
+      "speaker_role": "Customer",
+      "speaker_name": "Dale Spear",
+      "text": "Nope. Not at all. Thank you.",
+      "agent_response": "You're welcome, Dale. I look forward to our meeting on Thursday.",
+      "flag_for_review": false
+    }
+  ],
+  "scheduled_meeting": {
+    "date": "Thursday",
+    "time": "9:00 AM",
+    "attendees": ["Arison", "Dale Spear"],
+    "purpose": "To discuss compliance with Georgia Senate Bill 68.",
+    "uncertainty_flag": null
+  }
+}

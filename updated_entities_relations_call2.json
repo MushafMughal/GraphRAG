@@ -1,0 +1,124 @@
+{
+  "call_summary": {
+    "purpose": "To discuss compliance laws related to Georgia Senate Bill 68 and schedule a meeting.",
+    "outcome": "Meeting Scheduled",
+    "product_service_offered": "Compliance assistance for Georgia Senate Bill 68"
+  },
+  "entities": [
+    {
+      "name": "Arison",
+      "type": "PERSON",
+      "subtype": "Agent",
+      "contact_details": null
+    },
+    {
+      "name": "Unnamed Gatekeeper",
+      "type": "PERSON",
+      "subtype": "Gatekeeper",
+      "contact_details": null
+    },
+    {
+      "name": "Eric",
+      "type": "PERSON",
+      "subtype": "Decision Maker",
+      "contact_details": {
+        "email": "speartg@gmail.com",
+        "phone": "404-819-5095"
+      }
+    }
+  ],
+  "relationships": [
+    { "source": "Arison", "target": "NLA Investigative Division", "type": "WORKS_FOR" },
+    { "source": "Unnamed Gatekeeper", "target": "Eric", "type": "TRANSFERRED_CALL_TO" },
+    { "source": "Arison", "target": "Eric", "type": "SCHEDULED_MEETING_WITH" }
+  ],
+  "events": [
+    {
+      "type": "GATEKEEPER_INTERACTION",
+      "speaker_role": "Gatekeeper",
+      "speaker_name": "Unnamed Gatekeeper",
+      "text": "Uh, no. Compliance isn't in today. Who's calling?",
+      "agent_response": "It's Arison. Thank you for asking.",
+      "flag_for_review": false
+    },
+    {
+      "type": "QUESTION",
+      "speaker_role": "Customer",
+      "speaker_name": "Eric",
+      "text": "Are we under investigation?",
+      "agent_response": "No. You are not under investigation.",
+      "flag_for_review": false
+    },
+    {
+      "type": "QUESTION",
+      "speaker_role": "Customer",
+      "speaker_name": "Eric",
+      "text": "Is meeting state compliance laws a priority for your organization?",
+      "agent_response": "Thanks for sharing that, Eric.",
+      "flag_for_review": false
+    },
+    {
+      "type": "BUYING_SIGNAL",
+      "speaker_role": "Customer",
+      "speaker_name": "Eric",
+      "text": "Yes. It is.",
+      "agent_response": "I want to be respectful of your time. Is it okay to talk a bit more?",
+      "flag_for_review": false
+    },
+    {
+      "type": "PAIN_POINT",
+      "speaker_role": "Customer",
+      "speaker_name": "Eric",
+      "text": "Probably result in a lawsuit.",
+      "agent_response": "That makes sense, Eric.",
+      "flag_for_review": false
+    },
+    {
+      "type": "GENERAL_EVENT",
+      "speaker_role": "Customer",
+      "speaker_name": "Eric",
+      "text": "No. But, uh, Monday at 12 would be good.",
+      "agent_response": "Perfect. Monday at 12 works great.",
+      "flag_for_review": false
+    },
+    {
+      "type": "QUESTION",
+      "speaker_role": "Agent",
+      "speaker_name": "Arison",
+      "text": "What's the best email address to send that to?",
+      "agent_response": "Great. I have t g at gmail dot com. That correct?",
+      "flag_for_review": false
+    },
+    {
+      "type": "QUESTION",
+      "speaker_role": "Agent",
+      "speaker_name": "Arison",
+      "text": "Is your email spelled s p e a r at gmail dot com?",
+      "agent_response": "Thank you for clarifying.",
+      "flag_for_review": false
+    },
+    {
+      "type": "QUESTION",
+      "speaker_role": "Agent",
+      "speaker_name": "Arison",
+      "text": "What's the best number to reach you at?",
+      "agent_response": "Thank you. I have 4 0 4 8 1 9 5 0 9 5. That your mobile number?",
+      "flag_for_review": false
+    },
+    {
+      "type": "RAPPORT_BUILDING",
+      "speaker_role": "Agent",
+      "speaker_name": "Arison",
+      "text": "By the way, can I ask you 1 last question? Your favorite pancake topping?",
+      "agent_response": "Thank you for an amazing call, Eric.",
+      "flag_for_review": false
+    }
+  ],
+  "scheduled_meeting": {
+    "date": "Monday",
+    "time": "12:00 PM",
+    "attendees": ["Arison", "Eric"],
+    "purpose": "To discuss compliance issues related to workplace violence under Georgia Senate Bill 68.",
+    "uncertainty_flag": null
+  }
+}
