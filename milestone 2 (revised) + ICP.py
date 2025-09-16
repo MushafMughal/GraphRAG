@@ -6,14 +6,18 @@ from typing import List, Literal, Optional
 from openai import OpenAI
 from pydantic import BaseModel, ValidationError
 import re
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # --- Connection Details ---
-NEO4J_URL = "bolt://127.0.0.1:7687" # Default URL for local Neo4j
-NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = "12345678" # The password you set in Step 1
-NEO4J_DATABASE = "callsanalytics" # The database name you created
-api_key = "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"
-
+NEO4J_URL = os.getenv("NEO4J_URL")
+NEO4J_USERNAME = os.getenv("NEO4J_USERNAME")
+NEO4J_PASSWORDD = os.getenv("NEO4J_PASSWORDD")
+NEO4J_DATABASE1 = os.getenv("NEO4J_DATABASE1")
+NEO4J_DATABASE2 = os.getenv("NEO4J_DATABASE2")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # ==============================================================================
 # 1. THE BULLETPROOF VALIDATOR (PYDANTIC MODELS) - UPDATED
