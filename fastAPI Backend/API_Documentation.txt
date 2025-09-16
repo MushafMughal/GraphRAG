@@ -1,0 +1,23 @@
+### API 1:
+
+URL: http://127.0.0.1:8000/check-threshold
+METHOD: GET
+RESPONSE: {
+    "threshold_met": false,
+    "ready_segments": [],
+    "message": "No customer segments have reached the analysis threshold yet."
+}
+
+### API 2:
+
+URL: http://127.0.0.1:8000/update-script
+METHOD: POST
+PAYLOAD: {
+  "transcript_text": "Hello John, thanks for taking the call. We wanted to check if your company is still interested in our AI automation tools.",
+  "query": "What was the customer's main concern in this call?"
+}
+RESPONSE: {
+    "updatedScript": "Updated Script result will appear",
+    "ICP": "ICP 1"
+}
+
