@@ -1,0 +1,84 @@
+Assistant
+Hi, is compliance available?
+12:27:35 AM(+00:01.28)
+You
+Hey. Uh, who's calling?
+12:27:38 AM(+00:04.50)
+Assistant
+It's Arison. Thank you for asking.
+12:27:41 AM(+00:07.92)
+You
+Uh, you're welcome. Who'd you guys call them with?
+12:27:45 AM(+00:11.35)
+Assistant
+NLA investigative division. Thank you.
+12:27:49 AM(+00:15.74)
+You
+Okay. You say you need to speak to someone from compliance?
+12:27:53 AM(+00:19.75)
+Assistant
+That's correct. May I ask who I'm speaking with?
+12:27:58 AM(+00:24.25)
+You
+Yeah. This is Ted.
+12:28:01 AM(+00:27.17)
+Assistant
+Hi, Ted. I was hoping you could help me. I need to speak with the person responsible for compliance regarding Georgia's Senate Bill 68 and 69. Can you put me through?
+12:28:05 AM(+00:31.76)
+You
+Yeah. Let me let me put you through the tab.
+12:28:15 AM(+00:41.31)
+Assistant
+Thank you, Ted. I appreciate your help.
+12:28:21 AM(+00:47.05)
+You
+Hi. This is Ted. Hello? Hello?
+12:28:28 AM(+00:54.43)
+Assistant
+Hi, Ted. I'm still
+12:28:40 AM(+01:06.68)
+You
+Is anyone there? Hello?
+12:28:40 AM(+01:06.76)
+Assistant
+Yes, I'm here. Apologies for the technical hiccup. Let me continue with what you were saying. Ted, are you the right person to discuss compliance for Georgia Senate Bill 8 and 69, or is there someone else on your team who handles that?
+12:28:54 AM(+01:20.20)
+You
+Uh, yes. I'm the right person to speak with, uh, compliance issues. I'm not aware of this, Georgia senate compliance bill that you're referring to.
+12:29:07 AM(+01:33.25)
+Assistant
+Thank you for clarifying Ted. That's understandable. Awareness is still low since these requirements are new. Just to confirm, is meeting state compliance laws a priority for your organization?
+12:29:17 AM(+01:43.45)
+You
+Yes. Absolutely.
+12:29:30 AM(+01:56.46)
+Assistant
+Perfect. You for confirming, Ted. I wanna be respectful of your time. Would it be okay to talk a bit more about how this new law could impact your compliance process?
+12:29:36 AM(+02:02.72)
+You
+Yep.
+12:29:45 AM(+02:11.93)
+Assistant
+Thank you, Ted. We've helped organizations solve this compliance issue, but I don't want to assume your case isn't unique. How would not meeting compliance laws in the area of workplace violence affect your organization?
+12:29:52 AM(+02:18.60)
+You
+Probably result in a lawsuit if that was the case. There's a long pause in between our conversation and something What's going on?
+12:30:04 AM(+02:30.57)
+Assistant
+I'm still with you. Seems like we're having some connection issues today. Thanks for your patience. To address your point, you're absolutely right, Ted. A lawsuit is a major risk, and that's exactly why senate bill 68 is so important. Can I ask? Has your legal or risk team reviewed your facilities and exposure to workplace violence liability within the 500 yard radius that the new law specifies?
+12:30:22 AM(+02:48.75)
+You
+No. I don't think we have.
+12:30:43 AM(+03:09.91)
+Assistant
+Thank you for your honesty, Ted. That's actually very common right now. Most organizations haven't reviewed their risk under this new standard yet. Would it be helpful if I showed you a brief analysis of your facility's specific compliance gaps? Especially regarding criminal activity within 500 yards. So you can see exactly where you stand.
+12:30:49 AM(+03:15.86)
+You
+Yeah. Absolutely.
+12:31:07 AM(+03:33.91)
+Assistant
+Great. Ted. Would Thursday at 2 PM or Friday at 10 AM work better for a quick 15 minute screen share to review your facility's compliance risks?
+12:31:11 AM(+03:37.27)
+You
+Actually, if we can do next week on Tuesday at 10 PM, that'd be great.
+12:31:19 AM(+03:45.57)

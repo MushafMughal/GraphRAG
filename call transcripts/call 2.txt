@@ -1,0 +1,146 @@
+Assistant
+Hi, is compliance available?
+2:27:02 AM(+00:02.40)
+You
+Uh, no. Compliance isn't in today. Who's calling?
+2:27:05 AM(+00:05.18)
+Assistant
+It's Arison. Thank you for asking.
+2:27:10 AM(+00:10.32)
+You
+And who are you calling with?
+2:27:14 AM(+00:13.80)
+Assistant
+NLA Investigative Division, thank you.
+2:27:19 AM(+00:19.36)
+You
+Okay. Are we under investigation?
+2:27:24 AM(+00:23.96)
+Assistant
+No. You are not under investigation. Are here to help you stay compliant with new Georgia Senate Bill 68 69 requirements related to workplace violence liability. May I ask, who handles compliance for your facilities?
+2:27:29 AM(+00:28.79)
+You
+Um, that would be Eric.
+2:27:42 AM(+00:41.91)
+Assistant
+Thank you. You please connect me with Eric? Let me know the best way to reach him?
+2:27:45 AM(+00:45.13)
+You
+Yes. Give me 1 second. Let me connect you with Eric.
+2:27:50 AM(+00:50.31)
+Assistant
+Okay.
+2:27:54 AM(+00:53.95)
+You
+Hi. This is Eric.
+2:27:57 AM(+00:57.37)
+Assistant
+Hi, Eric. This is Arison with NLA Investigative Division. If I told you, this was a cold call regarding compliance laws related to Georgia Senate Bill 68. Would you throw your phone out the window or let me have 30 seconds and then decide?
+2:27:59 AM(+00:59.69)
+You
+Sure. I'll give you 30 seconds.
+2:28:12 AM(+01:12.47)
+Assistant
+Perfect. Our clients are corporate leaders across both private and government sectors who we provide security for, and who know that State's compliance failures result in financial penalties, reputational damage impacting share prices, and even potential business closure. For example, Georgia Senate Bill 68 recently introduced new compliance laws for corporate facilities. Inside, Senate Bill 68 includes what we refer to as a foreseeability trap. Linking workplace violence incidents directly to criminal activities occurring within 500 yards of your facilities. Many mistakenly assume guards or cameras are a solution, but they're not. I have a feeling you'll tell me that your security team has already solved this compliance issue, and I'm barking up the wrong phone. Is that the case?
+2:28:16 AM(+01:16.05)
+You
+No. We haven't heard of the senate bill 68. We haven't heard of that.
+2:28:55 AM(+01:55.71)
+Assistant
+Thanks for sharing that, Eric. It's understandable that awareness is still low. Is meeting state compliance laws a priority for your organization?
+2:29:04 AM(+02:04.67)
+You
+Yes. It is.
+2:29:13 AM(+02:12.97)
+Assistant
+I want to be respectful of your time. Is it okay to talk a bit more?
+2:29:15 AM(+02:14.88)
+You
+Sure.
+2:29:20 AM(+02:20.49)
+Assistant
+We've helped organizations solve this compliance issue but I don't want to assume your case isn't special. How would not meeting compliance laws in the area of workplace violence affect your organization?
+2:29:23 AM(+02:22.84)
+You
+Probably result in a lawsuit.
+2:29:33 AM(+02:33.65)
+Assistant
+That makes sense, Eric. Lawsuits can be costly and distracting for leadership. Besides legal risks, have you noticed any unexpected expenses or operational impacts related to security or workplace violence concerns?
+2:29:36 AM(+02:36.77)
+You
+No.
+2:29:48 AM(+02:48.01)
+Assistant
+Thanks for clarifying, Eric. Me see if I got this right. Your main concern is avoiding lawsuits related to workplace violence compliance. Is that accurate?
+2:29:49 AM(+02:49.61)
+You
+That's correct.
+2:29:59 AM(+02:59.67)
+Assistant
+If we could help with this compliance issue, would it be a stupid idea to set some time aside and discuss this further?
+2:30:02 AM(+03:01.91)
+You
+No. I don't think so.
+2:30:08 AM(+03:08.62)
+Assistant
+Is there a date and time that aligns with your schedule? Would Thursday at 2 PM or Friday at 10 AM work better for you?
+2:30:12 AM(+03:11.96)
+You
+No. But, uh, Monday at 12 would be good.
+2:30:19 AM(+03:19.67)
+Assistant
+Perfect. Monday at 12 works great. I'll need to send you the meeting confirmation and compliance information we'll be reviewing. What's the best email address to send that to?
+2:30:24 AM(+03:23.89)
+You
+My last name's Spear. T g at Gmail dot com.
+2:30:32 AM(+03:32.04)
+Assistant
+Great. I have t g at gmail dot com. That correct?
+2:30:39 AM(+03:39.09)
+You
+You have what?
+2:30:43 AM(+03:42.98)
+Assistant
+Let me make sure I have that exactly right. You said t as in tango, g as in golf, at Gmail dot com.
+2:30:45 AM(+03:45.43)
+You
+No. I said spear. T g at Gmail dot com.
+2:30:51 AM(+03:50.88)
+Assistant
+Thank you for clarifying. So, is your email spelled s p e a r at gmail dot com?
+2:30:57 AM(+03:56.85)
+You
+No. It's s p e a r t as in tiger, g as in George, at Gmail dot com.
+2:31:04 AM(+04:04.70)
+Assistant
+Got it. So your email is s p e a r t g at g mail dot com. Is that correct?
+2:31:12 AM(+04:11.85)
+You
+Yes. That's correct.
+2:31:16 AM(+04:16.62)
+Assistant
+And what's the best number to reach you at in case we need to reschedule? Or if there are any technical issues with our call?
+2:31:19 AM(+04:19.47)
+You
+Yes. 4 0 4 8 1 9 5 0 9 5.
+2:31:25 AM(+04:25.25)
+Assistant
+Thank you. I have 4 0 4. 8 1 9 5 0 9 5. That your mobile number?
+2:31:31 AM(+04:31.13)
+You
+Yes. That's my mobile number. Was that Spanish?
+2:31:38 AM(+04:38.73)
+Assistant
+No. Eric. That was just me reading back your number to make sure I got it right. I wanna be sure I can reach you if anything comes up before our meeting. Looking forward to our call Monday at 12. By the way, can I ask you 1 last question? Your favorite pancake topping?
+2:31:42 AM(+04:42.50)
+You
+Uh-huh. Uh, strawberries.
+2:31:57 AM(+04:57.02)
+Assistant
+What's your favorite pancake Thank you for an amazing call, Eric. I'll include a little nod to strawberries in our follow-up email. Have a great day.
+2:31:58 AM(+04:58.71)
+You
+You too. Bye bye.
+2:32:07 AM(+05:07.73)
+Assistant
+Goodbye, Eric. Take care.
