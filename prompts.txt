@@ -1,3 +1,203 @@
+grand_unified_prompt_2 = f"""You are a master data architect. Your task is to convert a call transcript into a structured JSON object representing the dialogue flow. Follow the schema and definitions with extreme precision.
+
+### CRITICAL RULES:
+1.  **MODEL THE DIALOGUE FLOW:** The `dialogue_turns` array MUST be a chronological sequence of the entire conversation.
+2.  **USE THE PROVIDED DEFINITIONS:** You MUST use the exact `turn_type` definitions provided below. Do not deviate.
+
+---
+
+### JSON SCHEMA:
+
+1.  **`call_session` (Object):**
+    *   `session_id`: A unique ID for the call (e.g., "call_transcript_1").
+    *   `outcome`: You MUST choose EXACTLY one value from this list: `["Meeting Scheduled", "Rejected", "Gatekeeper Block", "Voicemail", "Follow-up Required", "Wrong Person", "Call Dropped"]`.
+    *   `product_focus`: The main product discussed (e.g., "NLA Security Solution").
+
+2.  **`participants` (Array of Objects):**
+    *   `name`: Full name of the participant (e.g., "Arison Josh", "Dale Spear", "Unnamed Gatekeeper").
+    *   `role`: MUST be one of: `["Agent", "Recipient", "Gatekeeper"]`.
+    *   `organization`: The organization they belong to.
+
+3.  **`dialogue_turns` (Array of Chronological Objects):**
+    *   Each object represents one speaking turn and must have:
+        *   `turn_number`: A sequential integer starting from 1.
+        *   `speaker_name`: The name of the speaker.
+        *   `text`: The EXACT quote.
+        *   `turn_type`: **You MUST choose EXACTLY one value from this list based on these PLAIN ENGLISH definitions:**
+            ### Agent-Centric Labels
+            - **Opening**: The agent’s very first lines to the decision-maker. (e.g., "Hi Sarah, this is James from Acme Corp. Thanks for taking the time.")
+            - **Closing**: The agent’s last few lines before the call ends. (e.g., "Thankyou for the time, I’ll send over the info by email.")
+            - **Gatekeeper_Dialogue**: Any exchange that happens `before` the decision-maker is on the line (includes both agent + gatekeeper). (e.g., "Can I speak with Mr. Davis?", "He’s not available right now")
+            - **Agent_Question**: When the agent asks a question to gather information or move the conversation forward. (e.g., "Are you currently using outside counsel for compliance?")
+            - **Agent_Response**: When the agent directly answers a customer’s question, objection, pain point, or buying signal. (e.g., "We already have a vendor. → Agent: Totally understand. Many of our clients started in the same place.")
+            - **Rapport_Building**: Non-business, relationship-focused statements or light humor. (e.g., "Hope you had a good weekend.", "I’m a pancake person too.")
+
+            ### Customer-Centric Labels
+            - **Customer_Question**: Customer asks for clarity, detail, or next steps. (e.g., "Can you explain how that works", "What’s the cost?")
+            - **Customer_Objection**: Customer resists, refuses, or dismisses the agent's proposal. (e.g., "We're not interested.", "We already have a provider.")
+            - **Customer_Pain_Point**: Customer explicitly mentions a business problem, risk, or dissatisfaction. (e.g., "We've had compliance gaps in the past.", "That would probably result in a lawsuit.")
+            - **Customer_Buying_Signal**: Customer shows agreement, alignment, or willingness to continue. (e.g., "Yes, that sounds relevant," "Yes, I am available," "That's correct.").
+
+            ### System / Meta Labels
+            - **Technical_Issue**: Mentions of call quality problems, pauses, or audio glitches. (e.g., "Are you there?", "There's a long pause.")
+
+---
+
+Example of a Perfect Output Structure:
+```json
+{{
+  "call_session": {
+    "session_id": "call_transcript_1",
+    "outcome": "Meeting Scheduled",
+    "product_focus": "Georgia Senate Bill 68 compliance solution"
+  },
+  "participants": [
+    {
+      "name": "Arison",
+      "role": "Agent",
+      "organization": "NLA Investigative Division"
+    },
+    {
+      "name": "Unnamed Gatekeeper",
+      "role": "Gatekeeper",
+      "organization": "Not Provided"
+    },
+    {
+      "name": "Dale Spear",
+      "role": "Recipient",
+      "organization": "Not Provided"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "speaker": "Agent",
+      "text": "Hi Sarah, this is James from Acme Corp. Thanks for taking the time.",
+      "labels": "Opening"
+    },
+    {
+      "speaker": "Customer",
+      "text": "What does your company do exactly?",
+      "labels": "Customer_Question"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Great question — we help firms reduce compliance risk by automating workflows.",
+      "labels": "Agent_Response"
+    },
+    {
+      "speaker": "Customer",
+      "text": "We've had issues in the past with missed filings.",
+      "labels": "Customer_Pain_Point"
+    },
+    {
+      "speaker": "Agent",
+      "text": "That's exactly where we can help — most clients see a 40% reduction in errors.",
+      "labels": "Agent_Response"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, that sounds relevant. Can you send me more info?",
+      "labels": "Customer_Buying_Signal"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Absolutely, I'll follow up with details this afternoon.",
+      "labels": "Closing"
+    }
+  ]
+}}"""
+
+
+grand_unified_prompt = f"""You are a master data architect specializing in converting call transcripts into a highly structured, dialogue-flow knowledge graph format. Your task is to extract all entities and a chronological sequence of conversational turns with extreme precision. Your output must be a single, valid JSON object that strictly adheres to the schema provided.
+
+### CRITICAL RULES:
+1.  **MODEL THE DIALOGUE FLOW:** Your primary goal is to represent the back-and-forth conversation as a sequence. The `dialogue_turns` array MUST be in chronological order.
+2.  **SEPARATE OBJECTIONS & RESPONSES:** Each time the customer raises an issue, it is one turn. Each time the agent replies, it is a separate, subsequent turn.
+3.  **STRICT SCHEMA ENFORCEMENT:** You MUST use the exact field names and category values provided in the schema. Do not invent, alter, or misspell any category.
+
+---
+
+### JSON SCHEMA:
+
+1.  **`call_session` (Object):**
+    *   `session_id`: A unique ID for the call (e.g., "call_transcript_1").
+    *   `outcome`: You MUST choose EXACTLY one value from this list: `["Meeting Scheduled", "Rejected", "Gatekeeper Block", "Voicemail", "Follow-up Required", "Wrong Person", "Call Dropped"]`.
+    *   `product_focus`: The main product discussed (e.g., "NLA Security Solution").
+
+2.  **`participants` (Array of Objects):**
+    *   `name`: Full name of the participant (e.g., "Arison", "Dale Spear", "Unnamed Gatekeeper").
+    *   `role`: You MUST choose EXACTLY one value from this list: `["Agent", "Recipient", "Gatekeeper"]`.
+    *   `organization`: The organization they belong to, if known.
+
+3.  **`dialogue_turns` (Array of Chronological Objects):**
+    *   A list of EVERY conversational exchange in the order it happened.
+    *   Each object in the array represents one "turn" and must have:
+        *   `turn_number`: A sequential integer starting from 1.
+        *   `speaker_name`: The name of the person speaking.
+        *   `text`: The EXACT quote of what they said.
+        *   `turn_type`: You MUST choose EXACTLY one value from this list: `["Objection", "Response", "Opening", "Closing", "Logistics", "Gatekeeper_Dialogue"]`.
+
+---
+Example of a Perfect Output Structure:
+```json
+{{
+  "call_session": {{
+    "session_id": "call_transcript_1",
+    "outcome": "Meeting Scheduled",
+    "product_focus": "NLA Security Solution"
+  }},
+  "participants": [
+    {{
+      "name": "Arison",
+      "role": "Agent",
+      "organization": "NLA Investigative Division"
+    }},
+    {{
+      "name": "Unnamed Gatekeeper",
+      "role": "Gatekeeper",
+      "organization": null
+    }},
+    {{
+      "name": "Dale Spear",
+      "role": "Recipient",
+      "organization": null
+    }}
+  ],
+  "dialogue_turns": [
+    {{
+      "turn_number": 1,
+      "speaker_name": "Arison",
+      "text": "Hi. Is compliance available?",
+      "turn_type": "Gatekeeper_Dialogue"
+    }},
+    {{
+      "turn_number": 2,
+      "speaker_name": "Unnamed Gatekeeper",
+      "text": "Is not available.",
+      "turn_type": "Gatekeeper_Dialogue"
+    }},
+    {{
+      "turn_number": 3,
+      "speaker_name": "Arison",
+      "text": "Hi, Dale. This is Arison with NLA Investigative Division...",
+      "turn_type": "Opening"
+    }},
+    {{
+      "turn_number": 4,
+      "speaker_name": "Dale Spear",
+      "text": "Yes. I'd definitely sounds relevant to my organization.",
+      "turn_type": "Objection"
+    }},
+    {{
+      "turn_number": 5,
+      "speaker_name": "Arison",
+      "text": "I'm glad to hear that, Dale.",
+      "turn_type": "Response"
+    }}
+  ]
+}}"""
+
+
 final_prompt_v8 = f"""You are a comprehensive and precise data extraction robot. Your goal is to convert a call transcript into a structured JSON object.
 
 ### CRITICAL RULES - READ BEFORE EVERY TASK:

@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Files with sensitive information
+milestone 2 (revised) + ICP.py
+.env
+
 # Distribution / packaging
 .Python
 build/
