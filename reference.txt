@@ -1,0 +1,386 @@
+<SECTION type='objection-response' id='obj_respn_1' category='tell-them-why-you-are-asking' frequency='high'>
+How to instantly boost book-a-call meeting conversions by 20-30%. 
+When you ask them a question on your book-a-call meeting, tell them why you're asking them that question. 
+You'll increase your conversion rate of the book-a-call form by about 20-30%. 
+Example Question: What's the reason you're looking to (insert outcome)?
+Example response structure, tell them why you're asking them that question responses: 
+1.	We're asking you because _____________ 
+2.	We're asking you so we can ____________ 
+3.	We're asking you, so we know how to _____________ 
+4.	Or add, "The reason we're asking is," etc... 
+Having any reason will boost conversions.
+Having good reasons will boost it even more and make them feel that you're really trying to help them out by asking them those questions. 
+
+The psychology behind it is that if you have a stranger ask you questions, your subconscious automatically goes into self-defense mode to "Why are you asking me this?" and starts looking as to what they're trying to get from you. If you explain why you're asking,  it's no longer in self-defense mode because it flips it and is now GIVING something to them. 
+</SECTION>
+---
+
+
+<SECTION type='objection-response' id='obj_respn_2' category='i-have-to-think-about-it' frequency='high'>
+Here's what the "I have to think about it" objection really means and where it comes from. 
+Thinking, in itself is a problem-solving activity. 
+Humans primarily think when there is a problem, and when there isn't, we don't think much 
+at all, instead, we go back to a state of being and experience, aka "feeling state". And as such, thinking = problem-solving activity, so the whole "I have to think about it" 
+means, "I have to solve the problem that's not allowing me to move forward". Since we can't move forward, that means we don't buy in problem states unless under extreme stress. 
+We tend to buy in solution states, so the key is to go from the problem state (thinking) to the 
+solution state (feeling). 
+The problem in itself is that the problem they think they have is not the problem that's holding them back in the sale, but rather a deeper problem and an easy way to overcome it 
+is just by asking a question that goes something like this: 
+"Curious, once you do think about it, and figure it out...what would that look like?" Once you think about it = the assumption that they've already solved the problem, what 
+would that look like allow them to future pace themselves out of the problem state, into the
+solution state. 
+The reason this works is because they can't go into the future and solve the problem and 
+tell you without actually being able to solve it. 
+That'll reveal the problem to you as a future solution that you can use to identify what's holding them back from moving fwd. 
+- Alen 
+p.s. If you make them THINK in your copy, you're putting them in a problem state. This is 
+why it's so key to remove any and all abstraction from copy, that removes the THINKING 
+(problem) solving activity from it. 
+</SECTION>
+---
+
+
+<SECTION type='close-enhancement' id='close_respn_1' category='guarantee-close' frequency='high'>
+How to architect a guarantee CLOSE.
+
+FILL IN THE BLANK EXAMPLE: "I can guarantee you that we'll help you and show you how to _______, _______ and _________ but I need YOU to guarantee that you will ________, _______ and __________ because a guarantee has to work two ways for it to work". 
+Feel free to modify the structure, but in a sense, the goal is to have a guarantee that makes SENSE.
+
+FILL IN THE BLANK EXAMPLE 2: if you can guarantee me that you'll _______, then I can guarantee you that you'll _________. 
+</SECTION>
+---
+
+
+<SECTION type='writing-structure' id='what_structure' category='why_what_how_structure' frequency='high'>
+The Anatomy of Ads - The Why, What, How Structure (How to instantly reduce CPA and increase AOV by 50%) 
+@everyone 
+This is something I taught in a 3-hour masterclass back in September in Fast Forward and 
+in January in NHB+. 
+With that in mind, it’s a longer read than my recent posts. 
+This can be applied to ads, emails, Facebook posts, and pretty much anything you want 
+and it will work. 
+The expected results on ads are it should cut your CPA by 50% and increase your AOV by 
+50% 
+Here it is: 
+What’s there to say about running ads? Much has been said about it…
+…Everywhere you turn, there’s someone talking about it and teaching it. Although mostly from a technical aspect, what campaign structure, targeting strategies and 
+so on and so forth. 
+Truth be told, you can learn most of the technicalities of ads in a weekend, just hop into Facebook or Google accounts and start poking around, and you’ll figure it out. But what you won’t figure out, unless you spend a decade plus and a ton of money, is the 
+psychology of ads… 
+…What affects who, and how that what moves that who from stages of never knowing you 
+exist to being curious about what it is that you have to offer, to buy just about everything 
+you’re selling. 
+So this post will hopefully save you a good decade, a few bucks, and a whole lot of mistakes when it comes to running ads. 
+I shared this in in a 3 hour call Fast Forward back in September, then again in NHB+ in January, and today I’m sharing it with you. 
+Those that have used it have had their CPAs drop by as much as 50% while increasing their 
+AOVs by 50%. 
+And it’s been used in various offers and markets so it works across the board. So grab a cup of coffee or take a shot of your finest liquor while I take you into the anatomy 
+of ads and the WHY / WHAT / HOW structure. 
+Before we can get into it, we have to talk about the evolution of ads… If we go back in time, we had three different eras — the banner era, the keyword-centric 
+era, and the behavioral era. 
+The banner era was a total shit show where every single website you visited was plastered 
+with banners, mostly that had nothing to do with what you were interested in. This was the attention era of advertising and it literally took billboards and put them on websites. 
+“Hey, you know this would make a great billboard.” 
+“Yeah, let’s turn that into a banner and put it on a website.”
+“Great idea” 
+It didn’t last long because it didn’t work. 
+Not that those hosting banners didn’t make money. They made plenty of money…but the 
+ones who were buying the banners didn’t make any money, because there was only attention and not any intention. 
+Attention without intention = curiosity clicker or non-buyer 
+Attention AND intention = buyer 
+So to solve this inefficiency, Bill Gross over at Idealab/goto came up with a genius idea and 
+asked the question: 
+“How can we generate intention from attention?” 
+The answer was pretty simple: just look for where people have an existing intention and then pair it with attention. 
+Keyword searches had the highest intention. After all…they were actively seeking a solution 
+to a problem. 
+And just like that, the world of advertising went from never being held accountable to now 
+being held accountable, and the Pay Per Click model of advertising was born. Anytime someone searched for something — an ad would appear that matched the intent of 
+that search, and because of that entire industries were created, because we now had a way 
+to tap into people who wanted to buy stuff. 
+Now,I’m not going to get into the details of how that works here because obviously, you 
+know, but what you may not know is this… 
+…As efficient of a model as this was, at some point, it would break the economics. Every model has a saturation point and that’s the point where any additional inputs devalue 
+the whole and start to break the model. 
+The way the Pay Per Click model economics started to break down was that you had one 
+keyword and only about ten companies could compete for that keyword. So in the PPC model, it basically looked like this:
+Keyword = 10 positions that companies compete on, and whoever could pay the most got 
+access to the customer. 
+The problem and inefficiency of this model were that it made each customer exist in ONE 
+market. 
+One keyword = one customer = one market. 
+Say I’m searching for something in the dog training market, and even though I might also be 
+interested in watches, cars, going to the gym, traveling, etc…at that moment in time, the 
+ONLY thing I’d be interested in was “dog training,” nothing else… …So the only way people knew what I was interested in is when I would actually search for 
+something. 
+This idea of one customer = one market was what created the inefficacy that didn’t work at 
+scale. 
+That was Google’s bread and butter, and that’s what it did the best, and then they moved 
+over to the Google Display Network (Adsense) and did a bit of the same, but it was based 
+on the “keywords” on the page. 
+And then Facebook came up, and well…they didn’t have any keywords, so what could they 
+do? 
+But they had something else…tons and tons of behavioral data, and out of that they created 
+an algorithm that could do something that no one else could do… …And that something was the fact that it could identify and base the value of each user on 
+how many markets they were in simultaneously. 
+So now if I was interested in dog training…I would see dog training ads, but also everything 
+else I was interested in too… 
+…And now a whole bunch of people was selling me things i was interested in. This was pretty cool, because now “your customer is in multiple markets” emerged.
+So now, you were no longer competing with 10 other companies in your space for those 
+keywords. 
+Now you had no idea who you were competing with. 
+In fact, you might be selling dog training, competing with a weight loss offer and a biz-op 
+offer at the same time. 
+Your customer isn’t in just YOUR market, they’re in multiple markets, and everyone wants 
+their wallet share, yet they have limited attention spans and a limited amount of money to 
+spend and thus limited intention to spend it. 
+And thus, once again, we compete on economics. 
+Since your customers are in multiple markets, the value wasn’t based on the keywords that 
+customers searched for but rather on the time value of participation. Say I never buy something on FB, well, my value to FB is low as I’m not a “buyer”… …So it won’t change much in terms of CPM for me, but when I do start buying, then my 
+value in terms of CPM goes up, and as such, this is why historically speaking the cost of 
+ads has gone up and will continue to go up. 
+When it comes to Facebook — it doesn’t matter if you run ads, because if you don’t, someone else will, since that customer is in so many different markets at once. Their primary engine of intent was recency and if the behavior on the network was recent, 
+the probability of said behavior would be very high, but if the behavior is in the distant past, 
+the probability of said behavior would be very low. 
+So if someone became a “buyer” of something on Facebook, they would just start buying 
+everything else, this is also evident in email lists and such. 
+In direct response, “once a buyer, always a buyer”, this is why if you buy data, so long as it’s 
+“buyer data”, you can run promos all day to them and they’ll buy stuff. And as all good things come to an end.
+Tim Cook over at Apple woke up one day and decided to take privacy very seriously and 
+decided to destroy the ad algorithms by limiting the pixel from tracking and thus killing the 
+recency. 
+Overnight the whole landscape shifted and sales fell by 50-75% overnight and never recovered since. 
+Costs are up, and AOVs are down. Conversions are meh. And every agency claimed they 
+had the magic sauce on how to make it work in hopes of getting clients. Most are trying to figure out what to do and you can see this is true by people launching 
+new ad variations non-stop, guessing as to what will work. 
+You’ll see an offer pop up on your Facebook feed, and the next day, you’ll never see that 
+same ad…just the same offer, with different ads. 
+That’s how I know they’re guessing, and the ads ain’t working. 
+Sure they might work a little bit but then crash and burn. 
+So let’s remove the guesswork from the equation, and let me show you a better way to run 
+ads using the why/what/how model. 
+…You see, what the algorithm did so well paired you with people who had recency of activity. 
+That recency represented a high level of intent, and the intent was to buy. So what everyone got used to having is access to high-intent audiences, which were mainly 
+composed of buyers, who would of course buy, regardless of how good the marketing was. 
+This is why your favorite gurus from a few years ago are struggling to make anything work 
+these days. The pixel carried their handicap. 
+And as such it doesn’t take much to sell to a buyer, all you have to do is just have to be there with a relevant offer, and they’ll buy. 
+You don’t have to be good. You just have to be there at the right time when they’re ready to 
+buy.
+The problem is, with the pixel changes — there are now fewer buyers than ever and everyone is competing for them. 
+This is why when you launch ads, it’ll crush for a while and then go to shit. This cycle of up and down. 
+The up is when FB gives you the buyers they have (recency/intent) and then gives you non-buyers after with no intent. 
+Ads in front of people with intent = sales 
+Ads in front of people with no intent = no sales 
+On the surface level, this might seem simple, but when you understand what’s going on 
+under the hood, it’ll open a whole new level of depth to you. 
+So everyone is competing for the same pocket of the audience, which are highly qualified 
+leads with intent, aka “buyers”. 
+But there are a limited amount of them, and there are way more non-buyers. And as you’ll see, your ads are mostly created for buyers, but not for non-buyers, and so 
+they do nothing to move someone from being a non-buyer to becoming a buyer. My philosophy has always been that in order to grow the business and open up the market, 
+I want to go after people who don’t buy from me, because the ones who already buying/bought from me…I already got them. 
+So instead of wanting “more of the same”, I either change my qualifiers or “create more buyers”. 
+As there are a limited amount of buyers and FAR more non-buyers at any given time. In fact, I estimate that every audience has about 10% convertibility, meaning, at best, 10% 
+are buyers, and 90% are non-buyers. 
+So you and everyone else are competing for this 10%, while ignoring the remaining 90%... 
+...And the remaining 90% are non-buyers. There are 10x more of them than buyers and best of all...zero competition. 
+Now the thing is, even though it’s 10% buyers and 90% non-buyers, the difference is far 
+bigger than you might think. 
+And this is the difference that makes the difference:
+Before anyone buys anything, they have to be looking for a solution. Your product/service that you’re selling is nothing more than a solution to a problem. That’s it. 
+So with that in mind, the entire movement of non-buyers to buyers is this: Problem -> solution. 
+What happens is most people running ads are just sitting on the sidelines waiting for the 
+audience to go “oh shit, I have a problem,” and then come into a solution state of mind and 
+then buy. 
+But what if you could put them into a problem state of mind and then move them to the solution? 
+Now we’re cooking’… 
+So you have two mental states: 
+Audience (non-buyers) 90% (attention) -> Problem State (intent) -> Solution State (buyers) 
+10% 
+And herein lies the magic of it all, you can take people from being a general audience where 
+you can get attention to the problem state, so they enter the solution state and buy your 
+stuff. 
+Even though when it comes to ads, basically, we’re all chasing attention, all attention is not 
+created equal. 
+Attention without intent is mostly curiosity clicks which cost us money. 
+Attention + Intention = movement in the mind 
+Think of it this way: 
+Attention is when you’re AT something and intention is when you move IN something. This movement from being "outside" to being "inside" is the key. 
+In order for something to grow, it has to go into something. 
+Food has to go inside you to be absorbed so you can grow, a seed has to grow into the dirt 
+to grow, and an idea has to go into the mind to grow. 
+This attention to intention-shift is what causes movement in the mind and leads it from being
+merely curious to being serious about making the purchase. 
+But in order to create the movement, we have to go into the mind and start doing our work 
+there, and the mind won’t let us in easily… 
+And that’s where the Why / What / How model of ads comes in. 
+How do you get into someone's mind -> attention to creating intention? We have to be invited in, we can’t just come in uninvited. 
+They are three ways to get in the mind: 
+1. Questions 
+2. Statements 
+3. Story 
+Statements operate on true/false model, so most of the time, you make a statement, which 
+most ads are… audience can go “false” and ignore. 
+Once the mind accepts something is not true, proving is true becomes 100x harder, one 
+reason retargeting never works as well. 
+Statements only work on peak solution state buyers who are hyper-aware. This is why SaaS copy and such is nothing more than a series of “statements”, just take a look at Apple's site, nothing but statements. 
+Then we have good ol’ stories that can do the job, but we don’t have enough time (which is 
+the real digital real estate) to tell a story in an ad, so we have to save that for the VSL / Webinar or a TSL. 
+This only leaves us with the only thing left, which is a question… 
+…Now if a human brain hears or sees a question, it has to answer it, it will not / can not ignore it. 
+The reason is that our entire reality is built on answering questions, they are the basis of our 
+beliefs, thoughts, fears, emotions and everything else. 
+You can backtrack all of it to a question, and if you ask a question you can use that question 
+to backtrack it to the question that got that belief. 
+Now what’s interesting is the way your belief became a belief was through an assumptive 
+question, but that’s going to be another post-assumptive question.
+And when you run your ads in statement or story form, they only reason they work at all is 
+because the end user is ALREADY asking themselves the QUESTION. Because you can not have an emotional reaction without question. Try it - you can’t. 
+The question is going to be subconscious and also assumptive. 
+There are 6 questions you can play with, but right now, the only ones that matter are the 
+why, what and how. 
+Why is a reflective word, and it often times reflects the past, which is often time where the 
+problem was and comes from. 
+So asking someone why will ASSUME that they do have a problem, such as: “Why you’re not losing weight.” 
+See, how there is an ASSUMPTION that they’re not losing weight and you’re about to explain WHY to them. 
+This structure of asking the WHY instantly brings them into the awareness of the problem. 
+“Why you’re not getting clients.” 
+“Why you’re not losing weight.” 
+“Why is your offer not working.” 
+You can pre-frame it with “HERE”, such as “here’s why you’re not getting clients.” If you put a WHY into someone's mind and they do not say “Wait I’m not fat, wtf?”, than it 
+will go in and start generating an emotional state, on the same not, people that don’t have 
+that problem within won’t respond. 
+So what the why does is it finds the problem deep in the mind and pulls it out into conscious 
+awareness, where they think about it. 
+Now that they’re THINKING about the problem, they are in a PROBLEM state. Once they’re in the problem state that was generated by the invocation of the WHY in the 
+mind, we have to now move them, and the movement is to the solution, but before the solution can be presented an idea has to be sold first. 
+They always buy into the idea of the thing first, than the thing itself.
+And that is where the WHAT comes in in the structure, which represents the OUTCOME. 
+What is the transformative value of what will happen when you are aware of the problem? 
+“Why you’re not able to get clients, and if you could, you would [future pace].” The future pacing is really future selling as all events take place in the future, which means 
+all purchases are made for a better future. 
+The what is represenative of what will happen, the outcome of how their situation would be 
+better if they could solve this problem that you just put them in. 
+And then at the end of the structure, you add the HOW, and how implies a process. When you ask someone HOW or someone asks you HOW, that implies there is a process 
+to doing something, that it can be done, so in this case 
+“Why you’re not able to get clients and if you could you would [future pace] here’s the best 
+way to get clients”. 
+Now if you look at this: 
+WHY = When asked, finds the problem, and pulls them into awareness, now they’re separated from their browning e,nvionrment and instead of thinking about other posts, ads, 
+etc…they’re thinking about the problem. 
+WHAT = What is the outcome of solving that problem? People buy for outcomes. HOW = How to solve the problem, which implies a process, a sequence of steps. This leads to us to the perfect headline formula I shared here, which increased the optin 
+rate by 71% and increased the conversion rate by 63%. 
+Which has the structure of: 
+“How To Go From Feeling ________, _______ And, ______ To _______ And __________ Once And For All - By _____________ - In _____ days or less”. 
+Notice the HOW. What’s the last thing in the ad structure? The how, so your page is the HOW. 
+To recap, here’s what it looks like: 
+So you have two types of people - problem state and solution state, everything in between
+is useless. 
+Taking the 1st step = solution state. You are proactive. 
+So if they’re not in a problem state, you have to bring them into the problem state. People don’t seek solutions -> unless they have problems -> and then people don’t buy 
+unless they’re seeking a solution. 
+Why and when - activate problem / low emotional state. 
+How / what - activate solution state / high emotional state 
+Curious -> [ Problem Aware -> Solution] 
+Why -> What -> How 
+Using deeper identifiers on ads that match your targeting, each ad is goes from broad to 
+narrow targeting. 
+Why do coaches fail to get clients? 
+Why do health coaches fail to get clients? 
+Why do health coaches who run webinars fail to get clients? 
+Here’s the ad structure: 
+Problem -> WHY they have a problem = problem [60% of the ad] - put that WHY in the image 
+Outcome -> WHAT they get = outcome [30% of the ad] - a lot of the abstraction because in 
+the problem state, they do not know what they want - put most of this in the copy of the ad 
+And the reason they don’t know what they want is they don't know what’s possible Solution - HOW to get the outcome = process - hint at it [10% of the ad] - put this on the 
+bottom of the ad 
+Now, I know…DO YOU HAVE AN EXAMPLE SO I CAN SWIPE? 
+Yes and no…I can’t give you the full-on ads that people in FF and NHB+ use as it wouldn’t 
+be fair to them, but what I do is give you the structure you can fill, in, so here’s one that’s 
+crushing it now: 
+Ad Example: 
+[Start of the WHY, which is the problem] 
+Weight loss: Why do __________ matter more than calories after 30? [Notice the deep identifier here?]
+Experts are calling it the _______________”. But it’s not a __________ at all… Men’s hormones are ___________, leaving them ___________, ___________, and more ___________ and ___________ than ever before. 
+It hits from all sides: ___________ stress. ___________ stress. ___________ stress. Ever increasing pressure. 
+___________, ___________. Sitting too much and not moving enough. Fast food, health issues, bad news… 
+Societal shifts, viruses, inflation and even war. 
+Men aren’t sleeping right. They can’t think straight and feel exhausted all the time. And without being able to put exact words on it, they just don’t feel like themselves anymore. 
+It’s NOT aging, it’s not normal and it’s not permanent. 
+So what’s going on? 
+An environment filled with toxic levels of stress changes men’s hormones: It robs them of their ___________, causes belly fat storage, kills their drive, ruins their sleep 
+and leaves them vulnerable to mental issues. 
+When they try to lose weight or get fit by cutting their calories or cutting carbs, it makes the 
+problem WORSE. 
+[Start of the WHAT, which is the outcome] 
+Fortunately, there is another way. 
+One that focuses on ___________ rather than calories. 
+Using this approach, thousands of men are recovering their vitality and masculinity and shedding loads of fat in the process. 
+With short but effective exercise, diet, and a few key nutritional hacks, men can naturally 
+___________… 
+… and replace them with the ___________ that make it easy to build muscle, lose fat, sleep 
+well, and feel naturally strong and competitive, just like they used to. [Start of the HOW, which is the solution] 
+The key to outsized results is ___________… 
+Click the button below to discover how we optimize men’s hormones naturally with the Hormonal Optimization Protocol. 
+Alen
+p.s. Comment box for any questions you may have, love for the aglo or anything else. The biggest opportunities online are where there is a lack of regulation that allows for exploitation... 
+...yet the ones that last are the ones who self-regulate, never exploit, and only focus on creating value. 
+Over the last 20 years in this game, I've seen many come and many go... ...I've seen fortunes made and fortunes lost... 
+...And I've seen FTC and SEC come in to clean up the mess. 
+As I write this, many of your favorite gurus are under heavy investigation from the regulatory 
+bodies, and the future isn't looking good for them. 
+I genuinely hope they sort it out, come out better than ever and thrive to higher success 
+than they ever had before. 
+The reason I'm writing this short post is a thought that came to me, which is that most fortunes that were made online and kept following the formula: 
+The biggest opportunities online are where there is a lack of regulation and thus exploitation, yet the ones that last are the ones that can self-regulate, never exploit, and 
+only focus on creating value. 
+Historically, you can see this is true: 
+- Dot Com Boom: no regulation 
+- Crypto boom: no regulation 
+- Supplements on ClickBank: no regulation 
+- Biz Op with high ticket coaching: no regulation 
+- Finance niche (Agora and such): no regulation 
+- The list goes on and on... 
+And in each instance, by the time the dust settles and regulation is enforced, hundreds of 
+millions and billions were made but kept by very few. 
+Regulation, meaning...the rule of conduct that is enforceable by consequences. And exploitation means...all of the participants are not aware of what's going on and are 
+blinded by fear, need, and greed. The deadly trio of conversions.
+As a rule, are put in place, it gets more difficult to exploit openings in the market due to the 
+potential consequences... 
+...oh you can't say that in copy anymore? Conversions go unless you know how to use deep 
+psychology without having to make claims. 
+As most humans can't self-regulate emotions, fear, need, and greed, what's interesting is 
+that those who can exercise restraint in the game always end up on top and stand the test 
+of time. 
+What I pride myself on the most is my ability to exercise restraint with what I know. 
+So, food for thought...where do you see a lack of regulation these days? The answer to that 
+will lead you to your future fortune. 
+The structure of leads in copy (how to write good leads) 
+This morning, in NHB someone asked me what makes a good lead in copy and how they 
+"just know" without having to throw traffic at it. 
+Here was my answer: 
+If you think about it, a VSL or a TSL is nothing more than a series of agreements, they must 
+agree to continue to the next section and agree and so on until they reach the CTA and then 
+they agree to buy. 
+If they don't agree, they bounce...hence "drop off rates". 
+So looking at VSL / TSL copy through the lens of a series of "agreements", then the question becomes, what is the first agreement? 
+Well, that answer comes out of the thesis of why they're watching/reading the copy in the 
+first place, and that reason is that they have a problem and they want a solution to that problem. 
+So, therefore...a good lead should create a good hook, create intrigue, create tension, but 
+most importantly, get them to AGREE that they have the problem and that if they leave that
+page they leave with the knowledge of having the problem WITHOUT the solution, so the 
+ONLY solution is to watch the rest of the VSL that goes through a sequence of agreements. 
+So how do I know if an opening is good? Mostly gut feel, but I use the above framework to 
+validate that gut check...recency, relevance, personalization + agreement to the problem. 
+Once they agree to the problem, it's done...so think of your copy as a series of agreements, 
+check, check, check...hit that checkout page and buy. 
+- Alen 
+p.s. One more thing...when you have a VSL and you see a massive drop off in the opening, 
+this is why...they have not agreed to have a problem. 
+Now, there are two ways to do it...one is targetting, the more targetted the audience, the 
+more likely they have that problem, as soon as you broaden that out, the drop-offs increase 
+and economics go south, because of this agreement taking place. So to fix drop-off rates, 
+fix the agreement and you're set. See my post about "creating buyer identities." p.p.s. This isn't the same thing as associative states in OPENINGS, an opening is a very 
+different thing than a lead, and I'll write about that later this week. 
+</SECTION>
+---
