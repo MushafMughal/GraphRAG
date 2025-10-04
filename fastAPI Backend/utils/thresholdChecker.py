@@ -8,35 +8,43 @@ from utils.graphConnection import get_graph_connection
 
 def check_threshold():
     """
-    Checks if any IdealTargetCustomer segment has reached the 50-call threshold.
-    Returns a simple Yes/No (boolean) and a list of segments that are ready.
+    Checks if the highest session ID has reached the next analysis threshold (50, 100, 150, 200, etc.).
+    Returns a simple Yes/No (boolean) and the next threshold that needs to be reached.
     """    
     try:
             calls_graph = get_graph_connection(1)
 
-            # The Cypher query to find segments ready for analysis
+            # Get the highest session ID (similar to get_next_session_id function)
             query = """
-            MATCH (ic:IdealTargetCustomer)
-            WHERE ic.completed_call_count >= 50
-            AND (ic.last_analysis_run IS NULL OR ic.completed_call_count > ic.last_analysis_count)
-            RETURN ic.segment AS segment_to_analyze
+            MATCH (cs:CallSession)
+            // We extract the numeric part of the session_id
+            WITH toInteger(split(cs.session_id, '_')[-1]) AS session_num
+            RETURN max(session_num) AS max_id
             """
             
             result = calls_graph.query(query)
-            
-            ready_segments = [record['segment_to_analyze'] for record in result]
+            max_session_id = result[0]['max_id'] if result and result[0]['max_id'] is not None else 0
 
-            if ready_segments:
+            # Calculate what threshold we should be at based on max_session_id
+            # Find the highest threshold that max_session_id has surpassed
+            current_threshold_level = (max_session_id // 50) * 50
+            next_threshold = current_threshold_level + 50
+
+            # Check if we've reached a new threshold
+            if max_session_id >= next_threshold:
                 return {
                     "threshold_met": True,
-                    "ready_segments": ready_segments,
-                    "message": f"Threshold of 50 calls met for segments: {', '.join(ready_segments)}."
+                    "max_session_id": max_session_id,
+                    "threshold_reached": next_threshold,
+                    "message": f"Threshold of {next_threshold} calls reached. Current max session ID: {max_session_id}."
                 }
             else:
                 return {
                     "threshold_met": False,
-                    "ready_segments": [],
-                    "message": "No customer segments have reached the analysis threshold yet."
+                    "max_session_id": max_session_id,
+                    "next_threshold": next_threshold,
+                    "sessions_remaining": next_threshold - max_session_id,
+                    "message": f"Threshold not met. Current max session ID: {max_session_id}/{next_threshold}. {next_threshold - max_session_id} more sessions needed."
                 }
     except Exception as e:
             # If the database is down or the query fails, return an error
