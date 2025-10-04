@@ -189,7 +189,7 @@
       "turn_number": 28,
       "speaker_name": "Dale Spear",
       "text": "Yes. It is.",
-      "turn_type": "Customer_Response"
+      "turn_type": "Customer_Buying_Signal"
     },
     {
       "turn_number": 29,

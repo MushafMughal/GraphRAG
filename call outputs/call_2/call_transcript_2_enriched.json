@@ -231,7 +231,7 @@
       "turn_number": 35,
       "speaker_name": "Arison",
       "text": "Let me make sure I have that exactly right. You said t as in tango, g as in golf, at Gmail dot com.",
-      "turn_type": "Agent_Response"
+      "turn_type": "Agent_Question"
     },
     {
       "turn_number": 36,
