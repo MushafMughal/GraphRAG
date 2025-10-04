@@ -1,0 +1,19 @@
+docker stop neo4j-db 
+
+docker rm neo4j-db
+
+docker run \
+  --name neo4j-db \
+  -p 7474:7474 -p 7687:7687 \
+  -e NEO4J_AUTH=neo4j/YOURPASSWORD_HERE \
+  -e NEO4JLABS_PLUGINS='["apoc"]' \
+  -e NEO4J_dbms_security_procedures_unrestricted=apoc.* \
+  -e NEO4J_dbms_security_procedures_allowlist=apoc.* \
+  -d neo4j:community
+
+
+cypher-shell -u neo4j -p YOURPASSWORD_HERE -a bolt://localhost:7687 --encryption=false
+
+CALL apoc.help('meta');
+
+SHOW DATABASES;
