@@ -92,6 +92,26 @@ def get_last_n_call_records(limit):
         raise HTTPException(status_code=500, detail=f"Failed to connect to Calls Graph database: {str(e)}")
 
 
+def get_last10_calls_graph():
+    try:
+        llm = ChatOpenAI(model="gpt-5-mini", temperature=0, openai_api_key=OPENAI_API_KEY)
+        calls_graph = get_graph_connection(1)
+        callschain = GraphCypherQAChain.from_llm(
+            graph=calls_graph, llm=llm,
+            verbose=True, allow_dangerous_requests=True
+        )
+
+        response = callschain.invoke({"query": "give me complete call records for last 10 calls"})
+        result = response['result']
+        print(result)
+
+        return result
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to connect to Calls Graph database: {str(e)}")
+
+
+
 def call_script_analysis(call_records, vapi_script):
     """
     Analyzes call records against the VAPI script using OpenAI GPT-4o-mini.
@@ -522,6 +542,7 @@ def script_analysis(vapi_script):
     try:
         # --- Step 1: Get last 10 Calls ---
         print("Step 1: Fetching last 10 call records...")
+        # recent_calls = get_last10_calls_graph()
         recent_calls = get_last_n_call_records(10)
         
         if not recent_calls:
